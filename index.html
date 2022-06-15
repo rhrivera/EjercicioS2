@@ -1,26 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- shift + alt + F para dar sangría al código-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matcha</title>
     <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+
 </head>
- <body>
-    <h1>Build your Blog. Build your bussiness</h1>
-    <p>Instantly publish articles, drive more traffic, grow your email list, and see your blog's
-      impact on sales</p>
-    <form action="">
-        <input type="email">
-        <button> try it &rAarr;</button>
+
+<body>
+    <header class="header">
+        <!-- Logo con link a la página principal -->
+        <a href="/" class="logo">
+          <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Matcha"/>
+        </a>
+        <!-- Menú de navegación -->
+        <nav class="navbar">
+          <ul>
+            <li class="menu-item">Platform</li>
+            <li class="menu-item">Pricing</li>
+            <li class="menu-item">Customers</li>
+            <li class="menu-item">Resources</li>
+            <li class="menu-item">About</li>
+          </ul>
+        </nav>
+        <!-- Contenedor de acciones de usuario -->
+        <div class="actions">
+          <a>Sign In</a>
+          <button>Start free trial</button>
+        </div>
+      </header>
+<!-- Aquí va la barra de navegación -->
+<section class="main">
+    <h1>Build your blog. Build your business.</h1>
+
+    <h4>Instantly publish articles, drive more traffic, grow your email list, and see your blog’s impact on sales.</h4>
+
+    <form>
+      <input type="email">
+      <button type="submit" class="texto-boton">
+        Try it now &rarr;
+      </button>
     </form>
-      <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="">
-      <p>
+
+    <p class="texto-promocional">Start publishing today with a <strong>free 7-day trial.</strong></p>
+    <p class="texto-promocional"><strong>No credit card</strong> required.</p>
+
+    <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="Captcha de Capterra">
+  </section>
+    <p>
         Start publishing today with a <strong>free 7-day trial.</strong>
-      </p>
-      <p>
+    </p>
+    <p>
         <strong>No credit card</strong> required.
-      </p>
- </body>
+    </p>
+</body>
+
 </html>
